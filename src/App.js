@@ -168,7 +168,7 @@ const ProfileSection = () => {
         <p style={{ textAlign: 'center', fontWeight: 600, margin: 0 }}>Hello, I'm</p>
         <h1 style={{ fontSize: '3rem', textAlign: 'center', margin: 0 }}>Tisha</h1>
         <p style={{ fontSize: '1.75rem', marginBottom: '1rem', margin: 0 }}>
-          I love building tools that scalable & user-friendly!
+          I love building tools that are scalable & user-friendly!
         </p>
         <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem', marginTop: '1rem' }}>
           <button
