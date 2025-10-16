@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/TishaJhabak1014/tisha-verse.git/static/css/main.15f77111.css",
-    "main.js": "/TishaJhabak1014/tisha-verse.git/static/js/main.06204689.js",
-    "index.html": "/TishaJhabak1014/tisha-verse.git/index.html",
-    "main.15f77111.css.map": "/TishaJhabak1014/tisha-verse.git/static/css/main.15f77111.css.map",
-    "main.06204689.js.map": "/TishaJhabak1014/tisha-verse.git/static/js/main.06204689.js.map"
+    "main.css": "/tisha-verse/static/css/main.15f77111.css",
+    "main.js": "/tisha-verse/static/js/main.df853f17.js",
+    "index.html": "/tisha-verse/index.html",
+    "main.15f77111.css.map": "/tisha-verse/static/css/main.15f77111.css.map",
+    "main.df853f17.js.map": "/tisha-verse/static/js/main.df853f17.js.map"
   },
   "entrypoints": [
     "static/css/main.15f77111.css",
-    "static/js/main.06204689.js"
+    "static/js/main.df853f17.js"
   ]
 }
