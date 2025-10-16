@@ -172,7 +172,7 @@ const ProfileSection = () => {
         </p>
         <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem', marginTop: '1rem' }}>
           <button
-            onClick={() => window.open('./assets/5Tisha_Au[25].pdf')}
+            onClick={() => window.open(`${process.env.PUBLIC_URL}/assets/Tisha__pdf.pdf`)}
             style={{
               fontWeight: 600,
               transition: 'all 300ms ease',
@@ -228,13 +228,13 @@ const ProfileSection = () => {
           gap: '1rem'
         }}>
           <img
-            src="./assets/linkedin.png"
+            src={`${process.env.PUBLIC_URL}/assets/linkedin.png`}
             alt="LinkedIn"
             style={{ cursor: 'pointer', height: '2rem' }}
             onClick={() => window.location.href = 'https://www.linkedin.com/in/tisha-jhabak-91a2a7206/'}
           />
           <img
-            src="./assets/github.png"
+            src={`${process.env.PUBLIC_URL}/assets/github.png`}
             alt="GitHub"
             style={{ cursor: 'pointer', height: '2rem' }}
             onClick={() => window.location.href = 'https://github.com/TishaJhabak1014'}
@@ -253,7 +253,7 @@ const Terminal = () => {
   const statements = [
     { input: 'Tisha.currentLocation', return: '"Sydney, Australia"' },
     { input: 'Tisha.contactInfo', return: '["<a href="mailto:iamtisha22@gmail.com" style="color: #94dce9;">iamtisha22@gmail.com</a>", "<a href="https://www.linkedin.com/in/tisha-jhabak-91a2a7206/" style="color: #94dce9;">LinkedIn</a>", "<a href="https://github.com/TishaJhabak1014" style="color: #94dce9;">GitHub</a>"]' },
-    { input: 'Tisha.resume', return: '"<a href="/Tisha_resume_9.pdf" target="_blank" style="color: #94dce9;">Tisha.pdf</a>"' },
+    { input: 'Tisha.resume', return: '"<a href="/Tisha__pdf.pdf" target="_blank" style="color: #94dce9;">Tisha.pdf</a>"' },
     { input: 'Tisha.blogs', return: '"<a href="https://medium.com/@jhabaktisha22" target="_blank" style="color: #94dce9;">Tisha@medium</a>"' },
     { input: 'Tisha.interests', return: '["travelling", "hiking", "MCU (Marvel Cinematic Universe)", "trying new cuisines"]' },
     { input: 'Tisha.education', return: '"B. Software Engineering (Honours) - The University of Sydney, NSW"' },
@@ -341,7 +341,7 @@ const ProjectCard = ({ project }) => {
     }}>
       <div style={{ display: 'flex', flexDirection: 'column', gap: '2.5rem' }}>
         <img
-          src={project.image}
+          src={`${process.env.PUBLIC_URL}/${project.image}`}
           alt={project.title}
           style={{
             borderRadius: '2rem',
@@ -435,56 +435,56 @@ const ProjectsSection = () => {
   const projects = [
     {
       title: 'Hue Hunt',
-      image: './assets/hue-hunt.png',
+      image: 'assets/hue-hunt.png',
       description: 'Hue Hunt is a fun Chrome extension that simplifies color picking tasks for designers, developers, and anyone seeking inspiration from the colors around them. With Hue Hunt, users can effortlessly capture any color on their screen, copy or reset their saved history in clicks!',
       github: 'https://github.com/TishaJhabak1014/hue-hunt',
       demo: 'https://drive.google.com/file/d/1VSIjNL4RHVdcjRLKx54cZqa90lmeGOJ6/view?usp=sharing'
     },
     {
       title: 'Canvas Craft',
-      image: './assets/canvascraft.png',
+      image: 'assets/canvascraft.png',
       description: 'Transform your images effortlessly with this Image Editor in JavaScript. Apply filters, adjust brightness, rotate, flip, and save your edits seamlessly!',
       github: 'https://github.com/TishaJhabak1014/canvas-craft',
       demo: 'https://tishajhabak1014.github.io/canvas-craft/'
     },
     {
       title: 'Concussion Action Plan',
-      image: './assets/capp.png',
+      image: 'assets/capp.png',
       description: 'CAPApp: Revolutionizing Concussion Care. Our mission? To make identifying and managing concussions as easy as a tap on your smartphone. With intuitive design and powerful detection features, CAPApp is your trusted ally in athlete safety.',
       github: 'https://bitbucket.org/soft3888m1201p05/soft3888_m12_01_p05/src/main/',
       demo: 'https://drive.google.com/file/d/1_yg5f8vFvWJq3iTWd6-y-elcifogMnMO/view?usp=drive_link'
     },
     {
       title: 'ReVibe',
-      image: './assets/revibe.png',
+      image: 'assets/revibe.png',
       description: 'Empowering sustainable living with ReVibe: Track your waste reduction journey and earn rewards by scanning reusable items at partnered shops! This app has been developed with flutter technology, as a part of Google Solution Challenge 2024\'s targeting Sustainable Development Goals.',
       github: 'https://github.com/TishaJhabak1014/ReVibe',
       demo: 'https://www.youtube.com/watch?v=1LDtl2BBLfc'
     },
     {
       title: 'Pixcelerator',
-      image: './assets/project-2.png',
+      image: 'assets/project-2.png',
       description: 'Pixcelerator offers users a captivating journey into the realm of visual artistry. From the mesmerizing allure of neural style transfers to the whimsical charm of cartoonification, Pixelerator invites users to explore digital creativity!',
       github: 'https://github.com/TishaJhabak1014/pixcelerator',
       demo: 'https://github.com/TishaJhabak1014/pixcelerator'
     },
     {
       title: 'Campus Eats',
-      image: './assets/project-3.png',
+      image: 'assets/project-3.png',
       description: 'CampusEats revolutionizes how students dine near USYD. With seamless integration of Google API, we provide tailored food recommendations at your fingertips. Say goodbye to indecision and hello to culinary bliss with CampusEats!',
       github: 'https://github.com/TishaJhabak1014/campus-eats',
       demo: null
     },
     {
       title: 'Doodlew',
-      image: './assets/doodlew.png',
+      image: 'assets/doodlew.png',
       description: 'A user-friendly drawing app for quick sketches and doodles. Simple, intuitive, and perfect for unleashing your creativity! Implementing methods acquired from Practical Javascript, such as formulating requirements, iterating, and organizing the application as an MVC, allowing me to establish a stronger groundwork.',
       github: 'https://github.com/TishaJhabak1014/doodlew/',
       demo: 'https://tishajhabak1014.github.io/doodlew/'
     },
     {
       title: 'Lexical Lasso',
-      image: './assets/lexicallasso.png',
+      image: 'assets/lexicallasso.png',
       description: 'Lexical Lasso is a captivating Hangman game implementation where players rope in words by guessing letters, all to the tune of Wild West-inspired melodies. Enjoy some time of wordplay fun, and keep your guesses sharp as the music plays!',
       github: 'https://github.com/TishaJhabak1014/lexical-lasso',
       demo: 'https://tishajhabak1014.github.io/lexical-lasso'
@@ -521,7 +521,7 @@ const ProjectsSection = () => {
         </div>
       </div>
       <img
-        src="./assets/arrow.png"
+        src={`${process.env.PUBLIC_URL}/assets/arrow.png`}
         alt="Arrow"
         style={{
           position: 'absolute',
@@ -567,7 +567,7 @@ const ContactSection = () => {
           gap: '0.5rem',
           margin: '1rem'
         }}>
-          <img src="./assets/email.png" alt="Email" style={{ height: '2.5rem' }} />
+          <img src={`${process.env.PUBLIC_URL}/assets/email.png`} alt="Email" style={{ height: '2.5rem' }} />
           <p style={{ fontSize: 'larger', margin: 0 }}>
             <a href="mailto:iamtisha22@gmail.com" style={{ color: 'rgb(85, 85, 85)', textDecoration: 'none' }}>
               iamtisha22@gmail.com
@@ -581,7 +581,7 @@ const ContactSection = () => {
           gap: '0.5rem',
           margin: '1rem'
         }}>
-          <img src="./assets/linkedin.png" alt="LinkedIn" style={{ height: '2rem' }} />
+          <img src={`${process.env.PUBLIC_URL}/assets/linkedin.png`} alt="LinkedIn" style={{ height: '2rem' }} />
           <p style={{ fontSize: 'larger', margin: 0 }}>
             <a href="https://www.linkedin.com/in/tisha-jhabak-91a2a7206/" style={{ color: 'rgb(85, 85, 85)', textDecoration: 'none' }}>
               LinkedIn
