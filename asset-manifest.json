@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/tisha-verse/static/css/main.15f77111.css",
-    "main.js": "/tisha-verse/static/js/main.0dab451a.js",
+    "main.js": "/tisha-verse/static/js/main.779d02e7.js",
     "index.html": "/tisha-verse/index.html",
     "main.15f77111.css.map": "/tisha-verse/static/css/main.15f77111.css.map",
-    "main.0dab451a.js.map": "/tisha-verse/static/js/main.0dab451a.js.map"
+    "main.779d02e7.js.map": "/tisha-verse/static/js/main.779d02e7.js.map"
   },
   "entrypoints": [
     "static/css/main.15f77111.css",
-    "static/js/main.0dab451a.js"
+    "static/js/main.779d02e7.js"
   ]
 }
