@@ -253,7 +253,7 @@ const Terminal = () => {
   const statements = [
     { input: 'Tisha.currentLocation', return: '"Sydney, Australia"' },
     { input: 'Tisha.contactInfo', return: '["<a href="mailto:iamtisha22@gmail.com" style="color: #94dce9;">iamtisha22@gmail.com</a>", "<a href="https://www.linkedin.com/in/tisha-jhabak-91a2a7206/" style="color: #94dce9;">LinkedIn</a>", "<a href="https://github.com/TishaJhabak1014" style="color: #94dce9;">GitHub</a>"]' },
-    { input: 'Tisha.resume',   return: '"<a href=\'/assets/Tisha__pdf.pdf\' target=\'_blank\' style=\'color: #94dce9;\'>Tisha.resume</a>"' },
+    { input: 'Tisha.resume',   return: '"<a href=\'https://tishajhabak1014.github.io/tisha-verse/assets/Tisha__pdf.pdf\' target=\'_blank\' style=\'color: #94dce9;\'>Tisha.resume</a>"' },
     { input: 'Tisha.blogs', return: '"<a href="https://medium.com/@jhabaktisha22" target="_blank" style="color: #94dce9;">Tisha@medium</a>"' },
     { input: 'Tisha.interests', return: '["travelling", "hiking", "MCU (Marvel Cinematic Universe)", "trying new cuisines"]' },
     { input: 'Tisha.education', return: '"B. Software Engineering (Honours) - The University of Sydney, NSW"' },
